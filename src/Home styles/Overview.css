@@ -1,0 +1,66 @@
+/* Overview - Abi search*/
+.Overview{
+    margin: 1rem 2rem;
+  }
+  .sec-heading{
+    text-transform: uppercase;
+    color: #a8a0a0;
+    font-family: sans-serif;
+    line-height: 50px;
+    letter-spacing: 4px;
+    font-size: 40px;
+  }
+  .Overview-content{
+     padding: 2rem;
+     font-family: sans-serif;
+     background: linear-gradient(to right,rgba(0, 151, 178, 0.5),rgba(126, 217, 87, 0.5) );
+     text-align: center;
+     border-radius: 50px;
+    }
+  .Overview-content h2{
+    font-size: 40px;
+    text-align: left;
+  }
+  
+  .Overview-main{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    color: #302f2f;
+    font-weight:500;
+    font-size: 35px;
+    
+  }
+  .prof{
+    text-transform: uppercase;
+    color: #cc3852;
+    font-weight: 700;
+    font-size: 40px;
+    margin: 1rem 25rem;
+   
+  }
+  
+  .quote{
+    font-family: 'Roboto' sans-serif;
+    font-weight: 300;
+    font-size: 45px;
+    padding: 10px;
+    margin:20px
+  }
+  
+  .btn-primary{
+    padding:25px;
+    background-color: #004AAD;
+    color: #fff;
+    font-weight: 300;
+    border-radius: 35px;
+    text-transform: uppercase;
+    border: none;
+    margin: 0px 30px;
+    font-size: 20px;
+    width: 250px;
+  }
+  .btns-primary{
+    justify-content: space-between;
+    display: flex;
+  }

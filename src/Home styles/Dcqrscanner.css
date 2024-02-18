@@ -1,0 +1,18 @@
+/* DC QR Scanner */
+.dcqr{
+    padding: 2rem;
+    font-family: sans-serif;
+    background: linear-gradient(to right,rgb(0 151 178/ 25%),
+    rgb(255 102 196/ 25%) );
+    text-align: center;
+    border-radius: 50px;
+    margin: 5rem 2rem;
+  }
+  
+  .dcqr-main{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 35px;
+    font-weight: 700;
+    margin: 2rem;
+  }

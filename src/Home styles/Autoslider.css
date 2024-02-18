@@ -1,0 +1,22 @@
+
+/* AutoSlider */
+.image-wrapper{
+    margin: 50px 30px;
+    
+  }
+  .image-wrapper img{
+    border-radius: 30px;
+    width: 350px;
+    height: 250px;
+  }
+  
+  .list-style-img{
+    width: 50px;
+    height: 40px;
+    padding:0px 10px;
+  
+  }
+  
+  .list-style-name{
+    font-size: 30px;
+  }

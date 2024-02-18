@@ -1,0 +1,12 @@
+/* Vas */
+
+.Vas{
+    padding: 2rem;
+    font-family: sans-serif;
+    background: linear-gradient(to right,  rgb(255 145 77/50%),rgb(255 102 196/ 15%)
+   );
+    text-align: center;
+    border-radius: 50px;
+    margin: 5rem 2rem;
+  }
+  
