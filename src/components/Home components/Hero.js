@@ -6,7 +6,7 @@ import '../../Home styles/Hero.css'
  const Hero = () => {
   const navigate = useNavigate();
   return (
-    <div>
+    <div style={{textAlign:'center'}}>
         <div className='main'>
             <h1 className='main-content1'> Your Gateway <br/> to District<br/> Success</h1>
             <h2 className='main-content2'> Sculpting brands<br/> nurturing network</h2>

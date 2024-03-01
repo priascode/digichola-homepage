@@ -40,6 +40,10 @@
    
   }
   
+  .services{
+    display:flex;
+    justify-content:space-between;
+  }
   .quote{
     font-family: 'Roboto' sans-serif;
     font-weight: 300;
@@ -63,4 +67,60 @@
   .btns-primary{
     justify-content: space-between;
     display: flex;
+  }
+  .list-style-img{
+    width: 50px;
+    height: 40px;
+    padding:0px 10px;
+  
+  }
+  
+  .list-style-name{
+    font-size: 30px;
+  }
+  @media only screen and (max-width: 480px) {
+    .Overview{
+      margin:0px;
+    }
+   .sec-heading{
+    line-height: 30px;
+    letter-spacing: 2px;
+    font-size: 20px;
+   }
+   .Overview-content{
+    border-radius: 25px;
+   }
+   .Overview-content h2{
+    font-size: 30px;
+    text-align: center;
+  }
+  .Overview-main{
+    font-size: 20px;
+  }
+  .prof{
+    margin: 0.5rem 7rem;
+    font-size: 20px;
+  }
+  .services{
+    display: block;
+  }
+  .list-style-img{
+    width: 40px;
+    height: 30px;
+    padding:0px 10px;
+  
+  }
+  .list-style-name{
+    font-size: 23px;
+  }
+  .quote{
+    font-size: 30px;
+    margin: 10px;
+  }
+  .btns-primary{
+    display: block;
+  }
+  .btn-primary{
+    margin: 20px;
+  }
   }

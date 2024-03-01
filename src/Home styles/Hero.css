@@ -73,3 +73,47 @@
     font-size: 30px;
     letter-spacing: 0.2rem;
   }
+
+
+
+@media only screen and (max-width: 480px){
+  
+  .main{
+    display: block;
+    margin: 3em  1em;
+    text-align: center;
+   
+  }
+  .main-content1{
+    border-right: none;
+    letter-spacing: 5px;
+    font-size: 40px;
+  }
+  .main-content2{
+    margin: 8px;
+    padding: 16px;
+  }
+
+  .btns{
+    margin: 10px;
+  }
+  .main-btn1{
+    font-size: 20px;
+    border-radius: 35px;
+    margin: 5px;
+  }
+  .main-btn2{
+    font-size: 20px;
+    border-radius: 35px;
+    margin: 5px;
+  }
+  .main-btn3{
+    font-size: 20px;
+    border-radius: 35px;
+    margin: 5px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+
+}

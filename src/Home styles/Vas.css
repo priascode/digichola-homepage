@@ -9,4 +9,19 @@
     border-radius: 50px;
     margin: 5rem 2rem;
   }
+  .cards{
+    display:flex;
+    justify-content:space-around;
+  }
   
+@media only screen and (max-width: 480px){
+   .Vas{
+    margin: 2rem 0;
+    padding: 1rem;
+    border-radius: 25px;
+   }
+   .cards{
+    display: block;
+    margin: 10px;
+   }
+}

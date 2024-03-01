@@ -28,12 +28,12 @@ const DCQRScanner = () => {
     const navigate = useNavigate();
   return (
     <div className='dcqr'>
-        <h2 style={{textAlign:"left",fontSize:40}}>DC QR SCANNER</h2>
+        <h2 className='heading'>DC QR SCANNER</h2>
          <p className="dcqr-main">
         "Elevate your business with <br/>Digichola QR service"
         </p>
         <Autoslider/>
-        <div style={{display:"flex",justifyContent:"space-between"}}>
+        <div className='services'>
           <div className="services-list1">
             {services1.map((i) => (
               <div style={{ display: "flex",padding:8 }}>

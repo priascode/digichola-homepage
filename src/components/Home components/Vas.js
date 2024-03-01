@@ -38,7 +38,7 @@ const Vas = () => {
 words"
         </p>
         <Autoslider/>
-        <div style={{display:"flex",justifyContent:"space-between"}}>
+        <div className='services'>
           <div className="services-list1">
             {services1.map((i) => (
               <div style={{ display: "flex",padding:8 }}>
@@ -57,7 +57,7 @@ words"
           </div>
         </div>
 
-       <div style={{display:'flex',justifyContent:'space-around'}}>
+       <div className='cards'>
                 <JoinCard tit="Cholas WhatsApp Group" subtit="Whatsapp" img={whatsapp} amt="FREE"/>
                 <JoinCard tit="Cholas Weekly Meeting" subtit="Zoom" img={zoom} amt="₹1000"/>
        </div>

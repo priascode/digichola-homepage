@@ -40,7 +40,7 @@ const Overview = () => {
         <Professionslider />
 
         <Autoslider />
-        <div style={{display:"flex",justifyContent:"space-between"}}>
+        <div className="services">
           <div className="services-list1">
             {services1.map((i) => (
               <div style={{ display: "flex",padding:8 }}>
