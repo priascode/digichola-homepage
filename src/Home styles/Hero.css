@@ -87,7 +87,7 @@
   .main-content1{
     border-right: none;
     letter-spacing: 5px;
-    font-size: 40px;
+    font-size: 25px;
   }
   .main-content2{
     margin: 8px;
@@ -111,6 +111,9 @@
     font-size: 20px;
     border-radius: 35px;
     margin: 5px;
+  }
+  .tag-line{
+    font-size: 20px;
   }
 }
 
